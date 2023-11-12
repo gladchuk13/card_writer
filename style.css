@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@200&display=swap');
+*{  
+
+    padding: 0;  
+    margin: 0;  
+    border: 0;  
+    text-decoration: none;  
+    font-family: 'Roboto Condensed', sans-serif;
+   }  
+     
+   :focus,:active{outline: none;}  
+   a:focus,a:active{outline: none;}  
+     
+   nav,footer,header,aside{display: block;}  
+     
+   :root{  
+    --boss: rgb(160, 160, 160);  
+    --colors: rgb(210, 198, 198);  
+   }   
+     
+   input,button,textarea{font-family:inherit;}  
+     
+   input::-ms-clear{display: none;}  
+   button{cursor: pointer;}  
+   button::-moz-focus-inner {padding:0;border:0;}  
+   a, a:visited{text-decoration: none;}  
+   a:hover{text-decoration: none;}  
+   ul li{list-style: none;}  
+   img{vertical-align: top;}  
+     
+   h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}  
+     
+   html{  
+    scroll-behavior: smooth;  
+}
+
+.header {
+
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 700px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 450px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+    background-size: cover;
+    margin-top: 40px;
+    background-image: url(https://images.unsplash.com/photo-1542683305-710078a12f73?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FtcCUyMG5vdSUyMHN0YWRpdW18ZW58MHx8MHx8fDA%3D);
+}
+.sound {
+    width: 40px;
+    margin-left: -30px;
+    margin-right: 10px;
+}
+.block1 {
+    display: flex;
+    justify-content: space-between;
+}
+.text {
+    color: white;
+    font-size: 40px;
+}
+.text2 {
+    color: white;
+    font-size: 30px;
+}
+p {
+    color: white;
+}
+.cheap {
+    width: 70px;
+    border-radius: 10px;
+}
+.block2 {
+    display: flex;
+    justify-content: space-between;
+}
+.card_cvv {
+    font-size: 35px;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+.block3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card_number {
+    font-size: 70px;
+    color: white;
+}
+.card_data {
+    font-size: 35px;
+}
+.block4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.card_type {
+    display: flex;
+    font-size: 50px;
+}
+.card_firm {
+    width: 150px;
+}
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+.menu-logo {
+    display: flex;
+    
+}
+.logo {
+    width: 120px;
+}
+
+.text-logo {
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: end;
+}
+.fs {
+    font-size: 65px;
+    color: white;
+}
+.button {
+    border: 1px solid #000;
+    width: 150px;
+    height: 50px;
+}
+.button2 {
+    border: 1px solid #000;
+    width: 150px;
+    height: 50px;
+}
+.menu-point {
+    display: flex;
+    gap: 40px;
+}
+.menu-point-link {
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.bank {
+    margin-bottom: 9px;
+}
+
+
+
+
+input {
+    border: 1px solid #000;
+}
+
+
+
+
+
+
+
+.G_cs1 {
+    padding: 20px;
+    max-width: 469px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.G_big-label {
+    width: 300px;
+    display: flex;
+    
+    align-items: center;
+    border: 1px solid #cecece;
+    padding: 15px;
+    border-radius: 15px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.G_label-div {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    padding: 10px;
+    justify-content: center;
+}
+.sum {
+    position: absolute;
+    color: #878787;
+    transition: 0.6s;
+}
+.sum.active {
+    font-size: 14px;
+    margin-bottom: 29px;
+    transition: 0.6s;
+}
+.amount.active {
+    transition: 0.6s;
+}
+.amount {
+    border: none;
+    font-size: 14px;
+    display: flex;
+    margin-top: 60px;
+}
+
+.G_month {
+    position: absolute;
+    color: #878787;
+    transition: 0.6s;
+}
+.G_month.active {
+    font-size: 14px;
+    margin-bottom: 29px;
+    transition: 0.6s;
+}
+.G_month2 {
+    border: none;
+    font-size: 14px;
+    display: flex;
+    margin-top: 60px;
+}
+.G_month2.active {
+    transition: 0.6s;
+}
+
+.displayNumber {
+    height: 45px;
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 20px;
+}
+.G_month-payment2 {
+}
+.displayNumber2 {
+    height: 45px;
+    font-size: 20px;
+    border: 1px solid #878787;
+    border-radius: 10px;
+    padding: 11px 10px;
+    background-color:#FFF ;
+}
+.displayNumber3 {
+    height: 45px;
+    font-size: 20px;
+    border: 1px solid #878787;
+    border-radius: 10px;
+    padding: 11px 10px;
+    width: 367px;
+    background-color:#FFF ;
+}
+.fs_logo {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+}

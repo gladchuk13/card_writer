@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@200&display=swap" rel="stylesheet">
+</head>
+<header id="header" class="header">
+    <div class="menu-logo">
+        <div class="text-logo"><span class="fs">FS</span><p class="bank">Bank</p></div>
+    </div>
+    <div class="menu-point">
+        <a href="#header" class="menu-point-link">HOME</a>
+        <a href="#card" class="menu-point-link">MY CARD</a>
+        <a href="#cs1" class="menu-point-link">WRITE DATA</a>
+    </div>
+</header>
+<body>
+    <div id="card" class="card">
+        <div class="block1">
+            <div class="text"><p>Credit Card</p></div>
+            <p class="text2">debit</p>
+        </div>
+        <div class="block2">
+            <div class="mini_block">
+                <img class="sound" src="./pngwing.com (1) копія.png" alt="">
+                <img class="cheap" src="./card.png" alt="">
+                </div>
+            <div class="card_cvv"></div>
+        </div>
+        <div class="block3">
+            <div class="card_number"></div>
+            <div class="card_data"> <p>09/04</p> </div>
+        </div>
+        <div class="block4">
+            <div class="G_all">
+                <p class="G_text-display"></p>
+            <div class="displayNumber" id="displayNumber"></div>
+            </div>
+            <img class="card_firm" src="./pngwing.com (1).png" alt="">
+        </div>
+    </div>
+    <div id="cs1" class="G_cs1">
+        <form>
+            <div class="G_big-label" id="big-label1">
+                <div class="G_label-div">
+                    <label id="sum"  class="sum" for="amount">Введіть ім'я та прізвище</label>
+                    <input class="amount" type="text" oninput="handleInput()" id="amount"> <br><br>
+                </div>
+                
+                
+            </div>
+            <div id="errorMessage1" style="color: red;"></div> 
+                    
+        </form>
+    <div class="buttons">
+        <button class="button">Generate CVV</button>
+        <button class="button2">Generate card number</button>
+    </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
